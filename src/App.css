@@ -1,0 +1,50 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #C4AE78;
+}
+
+.app-container {
+  height: 400px;
+  width: 600px;
+}
+
+.guess-me {
+  margin: 20px 0;
+}
+
+button {
+  width: 150px;
+  color: #F9F6F0;
+  background-color: black;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+button:hover {
+  color: black;
+  background-color: #F9F6F0;
+}
+
+button + button {
+  margin-left: 20px;
+}
+
+.wrong {
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+}
+
+.correct {
+  font-size: 2rem;
+  color: green;
+  text-align: center;
+}
